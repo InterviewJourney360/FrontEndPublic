@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react'
+import React, {useState} from 'react'
 import '../css/Login.css'
 import { MdOutlineArrowOutward } from "react-icons/md";
 import google from '../assets/google.webp'
@@ -89,16 +89,16 @@ function Login() {
                     <div className='oauth-inner-div'>
                         <div className='google-oauth-outer-div'>
                             <div className='google-oauth-inner-div'>
-                                <p className='brand-name'><span><img src={google} height={25} width={25}/></span><span>Google</span></p>
+                                <p className='brand-name'><span><img src={google} alt='google' height={25} width={25}/></span><span>Google</span></p>
                             </div>
                         </div>
                         <div className='other-oauth-outer-div'>
                             <div className='other-oauth-inner-div'>
                                 <div className='linkedin-oauth-div'>
-                                    <p className='brand-name'><span><img src={linkedin} height={25} width={25}/></span><span>LinkedIn</span></p>
+                                    <p className='brand-name'><span><img src={linkedin} alt='linkedin' height={25} width={25}/></span><span>LinkedIn</span></p>
                                 </div>
                                 <div className='x-oauth-div'>
-                                <p className='brand-name'><span><img src={github} height={25} width={25}/></span><span>GitHub</span></p>
+                                <p className='brand-name'><span><img src={github} alt='github' height={25} width={25}/></span><span>GitHub</span></p>
                                 </div>
                             </div>
                         </div>
